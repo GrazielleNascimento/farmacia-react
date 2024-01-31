@@ -12,6 +12,7 @@ function Navbar() {
                 <div className='hover:underline'>Produtos</div>
                 <div className='hover:underline'>Categorias</div>
                 <div className='hover:underline'>Cadastrar categoria</div>
+                <div className='hover:underline'>Perfil</div>
                 <div className='hover:underline'>Sair</div>
               </div>
             </div>
