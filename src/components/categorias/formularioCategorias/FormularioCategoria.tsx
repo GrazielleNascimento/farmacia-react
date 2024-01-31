@@ -4,7 +4,6 @@ import Categoria from '../../../models/Categoria';
 import { buscar, atualizar, cadastrar } from '../../../service/Service';
 
 
-
 function FormularioCategoria() {
   const [categoria, setCategoria] = useState<Categoria>({} as Categoria);
 
@@ -49,10 +48,10 @@ function FormularioCategoria() {
         console.log(categoria)
         await cadastrar(`/categorias`, categoria, setCategoria)
 
-        alert('Categoria cadastrada com sucesso')
+        alert('Categoria cadastrado com sucesso')
 
       } catch (error: any) {
-          alert('Erro ao cadastrar a categoria')
+          alert('Erro ao cadastrado de categoria')
       }
     
       retornar()
